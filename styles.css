@@ -46,7 +46,6 @@ body p{
     width: 315px;
     padding: 2px;    
     height: 315px;
-    background-position: center ;
     background-size: cover;
 }
 .hover:hover{    
