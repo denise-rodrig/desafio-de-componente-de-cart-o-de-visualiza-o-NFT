@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+:root{
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Verydarkbluem: hsl(217, 54%, 11%);
+    --Verydarkbluec: hsl(216, 50%, 16%);
+    --Verydarkbluel: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+body{
+    box-sizing: border-box;
+    background-color: var(--Verydarkbluem);
+
+}
+body p{
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: var(--Softblue);
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.frame{
+    width: 20rem;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Verydarkbluel);
+    border-radius: 20px;
+    margin-top: 6rem;
+    box-shadow: 0 20px 0px 15px hsl(217, 54%, 10%), 0 20px 0px 40px hsl(220, 54%, 11%) ;    
+    border-bottom: 6rem !important;
+
+}
+.hover{
+    border-radius: 16px;
+    background-image: url(/images/image-equilibrium.jpg); 
+    width: 315px;
+    padding: 2px;    
+    height: 315px;
+    background-position: center ;
+    background-size: cover;
+}
+.hover:hover{    
+    opacity: 0.9; 
+    background-color: var(--Cyan) !important;  
+    border-radius: 16px;
+    background-image: url(/images/icon-view.svg) ;
+}
+
+
+
+.avatar{
+    border: var(--White) solid 2px;
+    border-radius: 50%;
+    width: 35px;
+}
+.text h1{
+    color: var(--White);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    cursor: pointer;
+}
+h1:hover{
+    color: cyan;
+  
+}
+.icons{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.icons img{
+    padding-right: 5px;
+}
+.icons h2{
+    color: var(--Cyan);
+}
+.persona{
+    display:  inline-flex;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+    border-top: var(--Softblue) solid 1px;
+}
+.persona a{
+    color: var(--White);
+    text-decoration: none;
+}
+.persona a:hover{
+    color: var(--Cyan);
+}
